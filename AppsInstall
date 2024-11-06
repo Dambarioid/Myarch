@@ -1,3 +1,5 @@
 sudo apt install git 
 git clone https://aur.archlinux.org/yay.git
+sudo mv yay /usr/lib/
+yay -S code
 yay -S nekoray sing-geoip-common sing-geoip-db sing-geoip-rule-set sing-geosite-common sing-geosite-db sing-geosite-rule-set
