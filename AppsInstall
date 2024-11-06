@@ -1,5 +1,9 @@
-sudo apt install git 
+sudo pacman -S git zsh 
 git clone https://aur.archlinux.org/yay.git
 sudo mv yay /usr/lib/
 yay -S code
 yay -S nekoray sing-geoip-common sing-geoip-db sing-geoip-rule-set sing-geosite-common sing-geosite-db sing-geosite-rule-set
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo pacman -S yt-dlp
+sudo pacman -S telegram-desktop 
+yay -S firefox-developer-edition
