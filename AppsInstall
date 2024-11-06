@@ -8,3 +8,5 @@ sudo pacman -S yt-dlp
 sudo pacman -S telegram-desktop 
 yay -S firefox-developer-edition
 sudo pacman -S python-pip
+yay -S tor-browser-bin
+
