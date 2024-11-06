@@ -4,5 +4,6 @@ sudo mv yay /usr/lib/
 yay -S nekoray sing-geoip-common sing-geoip-db sing-geoip-rule-set sing-geosite-common sing-geosite-db sing-geosite-rule-set
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 yay -S tor-browser-bin firefox-developer-edition code github-desktop-bin mov-cli python-mov-cli-youtube
+Download dash to dock, Weather O'Clock, Blur my shell
 --------------------------------------------------------
 Download extension manager
