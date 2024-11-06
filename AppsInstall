@@ -7,3 +7,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sudo pacman -S yt-dlp
 sudo pacman -S telegram-desktop 
 yay -S firefox-developer-edition
+sudo pacman -S python-pip
