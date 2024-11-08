@@ -6,3 +6,19 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 yay -S tor-browser-bin firefox-developer-edition visual-studio-code-bin github-desktop-bin mov-cli python-mov-cli-youtube
 --------------------------------------------------------
 Download extension manager,dash to dock, Weather O'Clock, Blur my shell
+--------------------------------------------------------
+VS code customization:
+Download glass extensin
+Custom window title bar
+Download only google fonts
+/usr/share/fonts/
+
+--------------------------------------------------------
+SDDM Customizations:
+sudo pacman -S qt5-quickcontrols2 qt5-graphicaleffects qt5-svg                                                                                                                                                                     
+git clone https://github.com/JaKooLit/simple-sddm.git ~/simple-sddm        
+sudo mv ~/simple-sddm /usr/share/sddm/themes/                                                                                                                                                                                      
+sudo mkdir /etc/sddm.conf.d 
+sudo nano /etc/sddm.conf.d/theme.conf.user      
+sudo nano /usr/share/sddm/themes/simple-sddm  
+sudo nano /usr/share/sddm/themes/simple-sddm/theme.conf
