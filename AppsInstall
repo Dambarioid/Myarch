@@ -1,4 +1,4 @@
-sudo pacman -S git zsh yt-dlp nodejs npm python-pip telegram-desktop neofetch postgresql
+sudo pacman -S git zsh yt-dlp nodejs npm python-pip telegram-desktop neofetch postgresql acpi
 git clone https://aur.archlinux.org/yay.git
 sudo mv yay /usr/lib/
 yay -S nekoray sing-geoip-common sing-geoip-db sing-geoip-rule-set sing-geosite-common sing-geosite-db sing-geosite-rule-set
